@@ -1,1 +1,0 @@
-pyfunc mode: business logic resides in logic_bundle.pkl
