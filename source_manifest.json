@@ -1,0 +1,27 @@
+{
+  "source_layout_version": "1.0.1-source",
+  "efficiency": {
+    "repository": "pj1433139082-hue/fan-efficiency-luqiao-zhongkecheng",
+    "reference_commit": "c06afdb36c5b1d5476d3430de1f2c0598f5532b7",
+    "path": "models/_drafts/fan-efficiency-luqiao-zhongkecheng/src/model.py",
+    "sha256": "17f0bdc5a697069ea9707ee4fd6258d9216311a8f7dd3b986d64838209a7c533",
+    "modified": false,
+    "usage": "fan_combination/efficiency_adapter.py loads this canonical implementation"
+  },
+  "combination": {
+    "repository": "shenghaokyrie-gif/blower-optimization",
+    "origin_commit_recorded_by_311": "a1b6d24035b666f24dc3d7961be5d4784d0f3fc8",
+    "path": "fan_combination/core.py",
+    "sha256": "3179315e8f473b1112e5b9506091f0763f0b5cf3d60389dd13026a1b69dd0ead",
+    "modified": false,
+    "rule_version": "1.1"
+  },
+  "platform_adapter": {
+    "source_only_version": "1.0.1-source",
+    "optional_empty_time_array_fix": true,
+    "existing_mlflow_run_changed": false,
+    "authentication": "external environment variables only; no credential payload in repository"
+  },
+  "examples": "synthetic only; no measured data or real frozen curves"
+}
+

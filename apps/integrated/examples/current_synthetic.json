@@ -1,0 +1,21 @@
+{
+  "fixture_notice": "合成接口测试，非路桥现场测量；F=5与海拔28仅用于软件联调",
+  "current": [
+    {
+      "point_id": "PS1061-BE_GFJF_0002-C_003_0004",
+      "observed_at": "2026-10-27T10:03:00+08:00",
+      "inlet_flow": 45.0,
+      "run_flag": 1,
+      "eligible": true,
+      "raw_quality_ok": true
+    },
+    {
+      "point_id": "PS1061-BE_GFJF_0002-C_003_0001",
+      "observed_at": "2026-10-27T10:03:00+08:00",
+      "inlet_flow": 56.0,
+      "run_flag": 1,
+      "eligible": true,
+      "raw_quality_ok": true
+    }
+  ]
+}

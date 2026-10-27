@@ -1,3 +1,17 @@
 __pycache__/
+outputs/
+**/outputs/
+local_runs/
+**/local_runs/
+raw_data/
+mlruns/
+.venv*/
+.env
+.env.*
+*.local.json
+*.local.ps1
+*.pkl
+*.xlsx
+*.csv
 *.py[cod]
 .ipynb_checkpoints/
