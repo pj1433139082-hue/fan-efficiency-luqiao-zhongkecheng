@@ -40,3 +40,5 @@ scripts/deploy-kit/fan-efficiency-luqiao-zhongkecheng/  部署套件（A 通道 
 - 尚无 7~30 天 15 s 历史数据，未建 baseline 与验收断面；
 - 海拔 28 m 为 SRTM 估算，待竣工图复核；
 - V_P 是否为电机输入功率（含变频器损耗）仍待厂家确认。
+
+<!-- gate check -->
