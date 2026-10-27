@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "model_id": "luqiao-phase2-fan-combination",
+  "history_start": "2026-10-27T10:00:00+08:00",
+  "history_end_exclusive": "2026-10-27T10:03:00+08:00",
+  "flow_unit": "m3/min",
+  "efficiency_caliber": "eta_excel",
+  "cleaning_gap_pct": 5.0,
+  "source_hashes": {
+    "efficiency.py": "17f0bdc5a697069ea9707ee4fd6258d9216311a8f7dd3b986d64838209a7c533",
+    "combination.py": "3179315e8f473b1112e5b9506091f0763f0b5cf3d60389dd13026a1b69dd0ead"
+  },
+  "efficiency_commit": "c06afdb36c5b1d5476d3430de1f2c0598f5532b7",
+  "machines": {
+    "PS1061-BE_GFJF_0002-C_003_0004": {
+      "status": "OK",
+      "rule_version": "1.1",
+      "qs": [
+        40.0,
+        41.0,
+        42.0
+      ],
+      "es": [
+        55.03237955667274,
+        56.40818904558955,
+        57.783998534506374
+      ],
+      "q_min": 40.0,
+      "q_max": 42.0,
+      "eta": 0.5640818904558955,
+      "n_kept": 3,
+      "need_review": false,
+      "sample_count_lt3": false,
+      "kept_rows": [
+        1,
+        2,
+        3
+      ],
+      "rejected_range": [],
+      "invalid_rows": [],
+      "rejected_eff": [],
+      "rejected_dev": [],
+      "D": 20.0,
+      "E": 100.0,
+      "F": 5.0,
+      "configured_flow_min": null,
+      "configured_flow_max": null
+    },
+    "PS1061-BE_GFJF_0002-C_003_0001": {
+      "status": "OK",
+      "rule_version": "1.1",
+      "qs": [
+        60.0,
+        61.0,
+        62.0
+      ],
+      "es": [
+        61.911427001256826,
+        62.943284117944444,
+        63.97514123463205
+      ],
+      "q_min": 60.0,
+      "q_max": 62.0,
+      "eta": 0.6294328411794443,
+      "n_kept": 3,
+      "need_review": false,
+      "sample_count_lt3": false,
+      "kept_rows": [
+        1,
+        2,
+        3
+      ],
+      "rejected_range": [],
+      "invalid_rows": [],
+      "rejected_eff": [],
+      "rejected_dev": [],
+      "D": 20.0,
+      "E": 100.0,
+      "F": 5.0,
+      "configured_flow_min": null,
+      "configured_flow_max": null
+    }
+  },
+  "quality_summary": {
+    "PS1061-BE_GFJF_0002-C_003_0004": {
+      "raw_rows": 12,
+      "minute_quality_counts": {
+        "VALID": 3
+      },
+      "full_minutes": 3,
+      "valid_minutes": 3,
+      "n_kept": 3
+    },
+    "PS1061-BE_GFJF_0002-C_003_0001": {
+      "raw_rows": 12,
+      "minute_quality_counts": {
+        "VALID": 3
+      },
+      "full_minutes": 3,
+      "valid_minutes": 3,
+      "n_kept": 3
+    }
+  },
+  "range_basis": "本台完整分钟经v1.1清洗后的历史区间，非厂家安全边界",
+  "fixture_notice": "合成曲线，仅接口测试，非路桥现场历史"
+}
