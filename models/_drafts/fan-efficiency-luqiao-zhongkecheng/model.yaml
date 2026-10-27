@@ -1,0 +1,60 @@
+schema_version: '1.0'
+compatibility:
+  model_lab: '>=0.1.0,<1.0.0'
+model:
+  id: fan-efficiency-luqiao-zhongkecheng
+  name: 风机效率实时计算（路桥中科成）
+  version: 0.1.0
+  lifecycle_state: specified
+  owner: <owner-id>
+target:
+  kind: cpu-iot
+  environment:
+    operating_system: linux
+    architecture: x86_64
+    python: '>=3.11,<3.12'
+    mlflow: ==2.22.2
+    package_format: mlflow-pyfunc
+    dependency_lock: runtime/requirements.lock.txt
+    native_runtime:
+      kind: none
+contract:
+  inputs:
+  - name: inlet_flow
+    type: number
+    unit: m3/min
+  - name: outlet_pressure
+    type: number
+    unit: kPa
+  - name: motor_power
+    type: number
+    unit: kW
+  - name: inlet_temperature
+    type: number
+    unit: C
+  - name: elevation
+    type: number
+    unit: m
+  outputs:
+  - name: eta_excel
+    type: number
+    unit: '1'
+  - name: eta_corrected
+    type: number
+    unit: '1'
+  - name: wp_excel
+    type: number
+    unit: kW
+  - name: wp_corrected
+    type: number
+    unit: kW
+  - name: quality
+    type: string
+    unit: code
+platform:
+  experiment: MLModel-2619_V001
+  author: <owner-id>
+source:
+  entrypoint: src/model.py
+  entrypoint_sha256: 17f0bdc5a697069ea9707ee4fd6258d9216311a8f7dd3b986d64838209a7c533
+  digest_mode: utf8-lf

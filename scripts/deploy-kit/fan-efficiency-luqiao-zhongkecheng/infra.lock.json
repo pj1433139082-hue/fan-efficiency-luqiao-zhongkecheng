@@ -1,0 +1,22 @@
+{
+  "files": {
+    "310/mlops_deploy_iot_armor2_310.py": "b05ac4c42acdd24c7a530bafdab380291da5fcfde96faf7cc1c6efd30ca536a1",
+    "310/pyarmor_runtime_000000/__init__.py": "849f59a8c7665d4dd45070b12d7ee2cd45c9bac57a6baa3d67543ed0c5b53837",
+    "310/pyarmor_runtime_000000/pyarmor_runtime.pyd": "b7b4fe4ecd38f8672fe4bf1d562f524e61e02030e1cb9de9faefefa1c48d42ca",
+    "311/mlops_deploy_iot_armor2_311.py": "86a2a28e9474684999e2d0f661284cb6e662c69e99b7c56a1cfc4e3c468c3332",
+    "311/pyarmor_runtime_000000/__init__.py": "b84c5aee91521a6c83fdadd137c3c806b5064aa814c11c8e84f593c4d215d9d0",
+    "311/pyarmor_runtime_000000/linux_x86_64/pyarmor_runtime.so": "6567c0d8be7192482f5998b923dd7c10b81c66f02ca767761ae8ce6778519f79",
+    "311/pyarmor_runtime_000000/windows_x86_64/pyarmor_runtime.pyd": "564df4bc3600f540e1f7c87fcd022bebb914c85beb4ca769979efd2969064e17",
+    "312/mlops_deploy_iot_armor2_312.py": "abecf977667804c23be576c3243bc88608a189e3f2d1c33c3a3f547ab759fd4c",
+    "312/pyarmor_runtime_000000/__init__.py": "f5157e71b977a95a44201706f0a48f2d83357e48e5c8cf2b93d5abd2cac00692",
+    "312/pyarmor_runtime_000000/pyarmor_runtime.pyd": "fcdbeec6ea5d192d65f01db9363aa9f50159f813cf00fc7f66f85aa73a2fdf84",
+    "deploy_template_iot2.py": "89268c3441bf9e24d15f86c75ee1a75766a4eea4ab8f38ee2cef45b47670057a",
+    "mlops_deploy_iot2.py": "f7e7546ac01d9bb6c0cabad4abc0fefc43a28ff5e2a01ff417e7f9fa908ac101"
+  },
+  "installed_at_utc": "2026-10-27T02:32:39+00:00",
+  "installer_version": "1.0",
+  "model_id": "fan-efficiency-luqiao-zhongkecheng",
+  "source_zip": "infra_model_deploy.zip",
+  "source_zip_sha256": "06f08382f652c303d451fb1770114a546babba5388247185729e46fd2e793942",
+  "version": 1
+}

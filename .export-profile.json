@@ -1,0 +1,12 @@
+{
+ "profile": "public",
+ "skip_dirs": [
+  "work",
+  "plots"
+ ],
+ "rewrites": [
+  "internal-host",
+  "plant-code",
+  "owner-id"
+ ]
+}

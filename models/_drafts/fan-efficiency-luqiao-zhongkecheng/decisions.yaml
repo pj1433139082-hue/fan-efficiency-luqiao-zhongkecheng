@@ -1,0 +1,15 @@
+schema_version: '1.0'
+model_id: fan-efficiency-luqiao-zhongkecheng
+decisions:
+  - id: plant-adaptation
+    topic: 为什么单独建工作区而不是复用台儿庄
+    status: accepted
+    answer: 按 ADR 0045：算法与契约只有一份，模型身份按厂分开；路桥是第三个厂，新建 model-id、独立实验 MLModel-2619_V001 与独立 baseline，公式仍来自共享实现。
+  - id: elevation
+    topic: 海拔配置
+    status: pending-confirmation
+    answer: 按坐标 28.33,121.23 查 SRTM 得 28 m（台州路桥近海），待竣工图设计高程确认后修改；H 对效率影响 <0.1 个百分点。
+  - id: scope-four-blowers
+    topic: 首批范围
+    status: accepted
+    answer: 只上鼓风机房 4 台（1期1#/2#、2期5#/6#）；沉砂池 4 台无模拟量、3期滤池 8 台模拟量全部采集异常，均不在首批范围。
